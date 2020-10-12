@@ -1,0 +1,795 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap');
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+   
+    font-family: 'Lato', sans-serif;
+
+}
+.container-fluid{
+    background-color: black;
+    opacity: 0.8;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 60px;
+}
+
+#nav-bar{
+    background-color: black;
+    opacity: 0.6;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 60px;
+}
+.navbar{
+    padding-top: 5px;
+}
+.navbar-brand i{
+    color: #ED145B !important;
+}
+.navbar-brand h2{
+    color: #fff !important;
+    
+}
+.navbar-nav {
+    padding-right: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight:600 ;
+    float: right;
+    font-size: 16px;
+}
+.navbar-nav li a.active{
+color: #ED145B !important;
+}
+.navbar-nav li:hover a{
+   color: #ED145B !important;
+    
+}
+
+.fa-bars{
+    color:  #ED145B !important;
+    font-size: 30px !important;
+    border: none;
+    text-decoration: none;
+    
+}
+.navbar-toggler{
+    padding-right: 20px;
+    outline: none !important;
+}
+/* heder title and others*/
+#header{
+    width: 100%;
+   height:100vh;
+   background-image: url(../img/bg.png);
+   background-position: center;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   
+   transform: translateY(-60px);
+}
+
+#title{
+   padding-top: 150px;
+   color: white;
+
+}
+#title h1{
+    font-family: Lato, sans-serif;
+    font-size: 46px;
+    font-style: light;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+#title h1::after{
+    content: '';
+    background:#ED145B !important;
+    height: 4px ;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(10px);
+}
+
+#title p{
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-style: light;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 0.55px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#title .btn_div{
+    margin: auto;
+    width: 165px;
+    
+}
+#title .btn{
+    background:#ED145B !important;
+    border-radius: 20px;
+    padding: 10px 30px ;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 50px;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0.38px;
+    text-transform: uppercase;
+}
+
+/*=================================
+          shedo 
+===================================*/
+ #shedo{
+
+
+border-style: solid;
+border-width: 35px 1350px 0 0;
+border-color: #ed145d transparent transparent transparent;
+background-color:whitesmoke;
+transform: translateY(-60px);
+}
+
+/*=================================
+           About_us
+===================================*/
+#About_us{
+    width: 100%;
+    background-color:whitesmoke;
+    transform: translateY(-60px);
+    overflow: hidden;
+}
+
+#About_us .row h2 {
+    padding-top:200px;
+    padding-bottom: 20px;
+    text-align:center;
+    color: #808080;
+    font-family: Lato, sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 52px;
+    font-style: italic;
+}
+#About_us .row h2::after{
+    content: '';
+    background:#ED145B !important;
+    height: 4px ;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(10px);
+}
+#About_us .row p {
+      color: #5a5a5a;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.35px;
+  padding-top: 20px;
+    margin:30px 0;
+    text-align:left;
+    
+    padding-left: 20px;
+}
+#About_us .row a {
+    margin:50px 0;
+    text-align:left;
+    color: #ED145B ;
+    padding-left: 40px;
+    font-size: 20px;
+}
+#About_us .row i {
+    color: #ED145B ;
+    padding-left: 5px;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+#About_us img{
+    width:550px ;
+    position: absolute;
+    top: 150px;
+}
+/*=================================
+           our sevices
+===================================*/
+
+
+#Our_services{
+    
+    width: 100%;
+    background-color: #fff;
+  
+}
+#Our_services h2{
+    padding:100px 0 20px 0;
+    text-align:center;
+    color: #808080;
+ 
+    font-family: Lato, sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 52px;
+    font-style: italic;
+
+}
+#Our_services h2::after{
+    content: '';
+    background:#ED145B !important;
+    height: 4px ;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(10px);
+}
+#Our_services p{
+   
+    text-align:center;
+    color: #808080;
+    padding:40px 0;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+}
+#Our_services .row {
+   margin-top: 60px;
+}
+#Our_services .row .icon {
+   width: 150px;
+   height: 150px;
+   border: 3px solid #808080;
+   border-radius: 50%;
+   margin: auto;
+}
+
+.col-md-3 .icon:hover{
+    border: 3px solid #ED145B !important;
+}
+
+#Our_services .row .icon .far , .fas {
+    font-size: 80px;
+   color: #ED145B;
+    padding: 33px;
+
+}
+#Our_services .row p{
+    text-align:center;
+    color: #ED145B;
+    font-size: 20px;
+}
+/*=================================
+          Text slider
+ ===================================*/
+#slider{
+    width: 100%;
+   
+}
+.quotes{
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+.quotes_slider h1{
+	font-size: 150px;
+    position: absolute;
+    bottom: 260px;
+    color: #ed145b;
+    left: 635px;
+}
+.quotes_slider p{
+    position: absolute;
+    bottom: 210px;
+    color: white;
+    width: 558px;
+    left: 389px;
+    text-align: center;
+    
+}
+.quotes_slider h2{
+	font-size: 150px;
+    position: absolute;
+    bottom: 30px;
+    color: #ed145b;
+    left: 635px;
+}
+
+
+/*=================================
+          prices
+===================================*/
+
+#prices{
+    width: 100%;
+    background-color:whitesmoke;
+   
+   
+}
+
+#prices h2 {
+    padding-top:100px;
+    text-align:center;
+    color: #808080;
+    font-family: Lato, sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 52px;
+    font-style: italic;
+}
+#prices h2::after{
+    content: '';
+    background:#ED145B !important;
+    height: 4px ;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(10px);
+}
+#prices p{
+    text-align: center;
+    color:  #808080;
+    color: #5a5a5a;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+}
+#prices .row .plan{
+    width: 260px;
+    height: 465px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#prices .row .plan:hover .rate{
+    background-color: #ED145B ;
+}
+#prices .row .plan .rate{
+    width: 260px;
+    height: 150px;
+    background-color:#595959 ;
+}
+#prices .row .plan .rate h5{
+   text-align: center;
+   color: #fff;
+   font-size: 50px;
+   padding-top: 20px;
+}
+#prices .row .plan .rate h5 span{
+
+   font-size: 20px;
+   
+}
+#prices .row .plan .rate p{
+   text-align: center;
+   color: #fff;
+}
+#prices .row .plan .description{
+    width: 260px;
+    height: 315px;
+    background-color:#fff ;
+    position: relative;
+    
+}
+
+#prices .row .plan .description .btn_top{
+    background-color:#f3f3f3 ;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #523333;
+    padding: 5px 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+   
+
+}
+#prices .row .plan .description ul {
+   
+    padding-top:30px ;
+    
+}
+#prices .row .plan .description ul li{
+   
+    padding-top:15px ;
+    font-size: 16px;
+    color: #808080;
+    text-align: center;
+    list-style: none;
+    
+}
+#prices .row .plan .description .btn{
+    background-color:#ed135b ;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px 20px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+   
+
+}
+/*=================================
+          speciality
+===================================*/
+#speciality{
+    width: 100%;
+    background-color: #fff;
+}
+#speciality .container{
+  margin-top: 100px;
+}
+
+#speciality .item{
+    height: 200px;
+    display: flex;
+}
+#speciality .item .icon{
+    width: 20%;
+}
+#speciality .item .text{
+    width: 80%;
+}
+#speciality .item .text h6{
+  color: #ED145B;
+}
+/*=================================
+          join us
+===================================*/
+#join_us_top{
+    height: 60px;
+    width: 100%;
+}
+#join_us{
+    width: 100%;
+    height: 150px;
+    background-color: #ED145B;
+  
+    
+}
+
+#join_us .container{ 
+  display: flex;
+ justify-content:center;
+}
+#join_us .text{ 
+  width: 90%;
+}
+#join_us .button{ 
+  width: 10%;
+  position: relative;
+}
+#join_us h2{ 
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+   margin: 50px;
+
+   font-family: Lato, sans-serif;
+   font-size: 38px;
+   font-weight: 400;
+   line-height: 52px;
+  
+}
+#join_us button{ 
+    background-color:#fff ;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#ED145B ;
+    padding: 5px 20px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+   
+    transform: translate(-50%, -50%);
+   
+
+}
+/*=================================
+         Updats
+===================================*/
+#updates{
+    width: 100%;
+}
+
+#updates h2 {
+    padding-top:100px;
+    text-align:center;
+    color: #808080;
+
+    font-family: Lato, sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 52px;
+    font-style: italic;
+}
+#updates h2::after{
+    content: '';
+    background:#ED145B !important;
+    height: 4px ;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(10px);
+}
+#updates .p{
+    text-align: center;
+
+    margin-bottom: 40px;
+    color: #5a5a5a;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+  
+}
+#updates .row{
+    justify-content: space-around;
+}
+#updates .card{
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #F3F3F3;
+    
+}
+#updates .card .card-img-top{
+    transition: .6s;
+}
+#updates .card:hover .card-img-top{
+   transform: scale(1.1);
+}
+
+ 
+/*
+          shedo 
+*/
+#shedo_card{
+   transform: translateY(-24px);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 35px 0 0 400px;
+    border-color: transparent transparent transparent #ed145d;
+}
+#updates .show_more_div{
+    position: relative;
+    margin-bottom: 100px;
+}
+#updates .show_more button{
+   background: none;
+    color:#ed135b ;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 20px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+   
+
+}
+#updates .show_more_div span{
+ 
+    font-size: 50px;
+    font-weight: bold;
+    color: #ed135b;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+} 
+/*=================================
+       More work 
+===================================*/
+#psd_template{
+    width: 100%;
+    height: 520px;
+    background-image: url(../img/bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white; 
+}
+#psd_template .text{
+    width: 700px;
+    margin: auto;
+    position: relative;
+}
+#psd_template .text h2{
+    padding-top:100px;
+    text-align:center;
+    color: #808080;
+
+    font-family: Lato, sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 52px;
+    font-style: italic;
+}
+
+#psd_template .text h2::after{
+    content: '';
+    background:#ED145B !important;
+    height: 4px ;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(10px);
+}
+#psd_template .text p{
+       
+    text-align:center;
+    color: #808080;
+    padding:40px 0;
+    margin-bottom: 50px;
+   
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+}
+#psd_template .text button{
+       
+    background-color:#ED145B;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#fff ;
+    padding: 5px 20px;
+    position: absolute;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+}
+/*=================================
+       download
+===================================*/
+#download{
+    width: 100%;
+    
+   background-color: #F3F3F3; 
+}
+#download .row{
+   padding-top: 20px;
+}
+#download img{
+    padding: 50px 0;
+    width: 100%;
+     height: 100%; 
+}
+#download .text h2{
+    padding-top:100px;
+    text-align:center;
+    color: #808080;
+    font-family: Lato, sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 52px;
+    font-style: italic;
+}
+
+#download .text h2::after{
+    content: '';
+    background:#ED145B !important;
+    height: 4px ;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+    transform: translateY(10px);
+}
+#download .text p{
+       
+    text-align:center;
+    color: #808080;
+    padding:40px 0;
+
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+
+}
+#download .text button{
+       
+    background-color:#ED145B;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#fff ;
+    padding: 5px 20px;
+    position: absolute;
+    left: 50%;
+   z-index: 100;
+    transform: translate(-50%, -50%);
+}
+#footer_top{
+    width: 100%;
+    height: 200px;
+    background-color: #F3F3F3; 
+}
+/*=================================
+    footer
+===================================*/
+footer{
+    width: 100%;
+    height: 80px;
+    background: #2B2B2B;
+    position: relative;
+    
+}
+footer p{
+    position: absolute;
+    top: 20px !important;
+    color: #fff;
+    left: 30%;
+ 
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+}
+
+
+
+
